@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    color: rgb(3, 41, 56);
+    font-family: 'Macondo', cursive;
+}
+.header{
+    display: flex;
+   width: 100%;
+    background-color: rgb(7, 39, 58);
+    justify-content: center;
+    font-family: monospace;
+    font-size: 10ex;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+#image{
+    width: 19%;
+    height: 25%;
+}
+.figure{
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+}
+aside{
+    flex: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: justify;
+    font-size: 3ex;
+}
+section{
+    flex: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: justify;
+    font-size: 3ex;
+}
+h2{
+    color: rgb(248, 248, 248);
+    background-color: rgb(7, 39, 58);
+}
